@@ -4,8 +4,10 @@
 
 ### Changelogs:
 
-### (Script and Website update) 19:52:00 - Release
+### 04/10/2024 19:52:00 - (Script and Website update) Release
 
-### (Minor change) (Website update) 20:23:40 - Added main site, fixed text size
+### 04/10/2024 20:23:40 - (Minor change) (Website update) Added main site, fixed text size
+
+### 04/10/2024 21:01:45 - (Minor change) (Website update) Updated time format on changelogs to be how it is on Infinite Yield Reborn: Modded.
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
