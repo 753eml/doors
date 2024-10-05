@@ -2,6 +2,8 @@
 
 # Credits to: (the mspaint dev team ofcourse)
 
+# Tested on: Solara
+
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()](https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua)
 
 ### Changelogs:
