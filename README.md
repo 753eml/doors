@@ -14,6 +14,6 @@
 
 ### 04/10/2024 21:01:45 - (Minor change) (Script and Website update) Changed seek chase door opening sound to Rooms and added credits on the Website
 
-### 05/10/2024 14:35:00 - (Minor change) (Script update) Added notification for Doors lobby
+### 05/10/2024 14:34:55 - (Minor change) (Script update) Added notification for Doors lobby
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
