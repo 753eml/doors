@@ -26,7 +26,8 @@ if table.find(placeIds, game.PlaceId) then
         ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
         ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
         ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
-        ["rbxassetid://17717855685"] = "rbxassetid://5037969255"
+        ["rbxassetid://17717855685"] = "rbxassetid://5037969255",
+        ["rbxassetid://9114149321"] = "rbxassetid://8007673711"
     }
     local defaultVolume = 1.6  -- Set volume (0-10)
     while true do
