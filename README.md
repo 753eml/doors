@@ -18,4 +18,6 @@
 
 ### 05/10/2024 14:34:55 - (Minor change) (Script update) Added notification for Doors lobby
 
+### 05/10/2024 20:11:10 - (Major change) (Script update) Made the script not load in other games that aren't Doors (May boost FPS in the unsupported games, due to it not executing there).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
