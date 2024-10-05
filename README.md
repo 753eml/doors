@@ -1,8 +1,8 @@
 # Doors: [Mspaint](https://mspaint.upio.dev/) + Changed door sounds
 
-# Credits to: (the mspaint dev team ofcourse)
+# Credits to: The mspaint dev team ofcourse
 
-# Tested on: Solara
+# Tested on: Solara (Works but less features due to lower UNC rating and level 3 execution)
 
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()](https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua)
 
