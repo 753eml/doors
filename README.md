@@ -20,4 +20,6 @@
 
 ### 05/10/2024 20:11:10 - (Major change) (Script update) Made the script not load in other games that aren't Doors (May boost FPS in the unsupported games, due to it not executing there).
 
+### 05/10/2024 20:34:50 - (Minor change) (Script Bug Fix) Fixed script executing in other unsupported games, thus no longer reducing FPS when attempting to execute the script.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
