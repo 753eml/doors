@@ -22,4 +22,6 @@
 
 ### 05/10/2024 20:34:50 - (Minor change) (Script Bug Fix) Fixed script executing in other unsupported games, thus no longer reducing FPS when attempting to execute the script.
 
+### 09/10/2024 18:17:30 - (Minor change) (Website update) Changed Website theme.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
