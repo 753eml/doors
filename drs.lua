@@ -1,4 +1,4 @@
--- Door sounds
+-- Door sounds for different places
 local placeIds = {
     [6839171747] = "You are in a Doors match!",
     [10549820578] = "You are in a Super Hard Mode Doors match!",
@@ -14,11 +14,29 @@ local function sendNotification(title, text, duration, image)
         Icon = image;
     })
 end
+local soundIdMaps = {
+    [6839171747] = {
+        ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
+        ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
+        ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
+        ["rbxassetid://16604121645"] = "rbxassetid://5037969255"
+    },
+    [10549820578] = {
+        ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
+        ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
+        ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
+        ["rbxassetid://7758469482"] = "rbxassetid://5037969255"
+    },
+    [6516141723] = {
+        ["rbxassetid://9145204049"] = "rbxassetid://101837480757161"
+    }
+}
+local defaultVolume = 1.6  -- Set volume (0-10)
 if placeIds[game.PlaceId] then
     sendNotification("Place Check", placeIds[game.PlaceId], 10, thumbsUpImage)
--- Mspaint
+    -- MSPaint
     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
--- Door sounds part 2
+    -- Door sounds part 2
     workspace.ChildAdded:Connect(function(child)      
         if child:IsA("Part") and child:FindFirstChild("ClickDetector") then      
             child.ClickDetector.MouseClick:Connect(function()            
@@ -27,7 +45,21 @@ if placeIds[game.PlaceId] then
             print("Connected new door:", child.Name)    
         end
     end)
-
+    local soundIdMap = soundIdMaps[game.PlaceId]
+    if soundIdMap then
+        while true do
+            for _, v in pairs(workspace:GetDescendants()) do
+                if v:IsA("Sound") then  
+                    local newSoundId = soundIdMap[v.SoundId]
+                    if newSoundId then
+                        v.SoundId = newSoundId
+                        v.Volume = defaultVolume
+                    end
+                end
+            end
+            wait(1)
+        end
+    end
 else
     sendNotification("Error", "You are not in Doors!", 10, thumbsDownImage)
 end
