@@ -26,4 +26,6 @@
 
 ### 09/10/2024 19:28:00 - (Major change) (Script update) Forgot about removing the sound replacements.. oops (－‸ლ)
 
+### 09/10/2024 19:31:30 - (Minor change) (Script update) Removed notification sound replacement, due to it not actually replacing the Mspaint notification sound.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
