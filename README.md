@@ -24,4 +24,6 @@
 
 ### 09/10/2024 18:17:30 - (Minor change) (Website update) Changed Website theme.
 
+### 09/10/2024 19:28:00 - (Major change) (Script update) Forgot about removing the sound replacements.. oops (－‸ლ)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
