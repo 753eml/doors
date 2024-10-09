@@ -19,16 +19,19 @@ local soundIdMaps = {
         ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
         ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
         ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
-        ["rbxassetid://16604121645"] = "rbxassetid://5037969255"
+        ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
+        ["rbxassetid://10470707502"] = "rbxassetid://101837480757161",
+        ["rbxassetid://4590662766"] = "rbxassetid://6655708496"
     },
     [10549820578] = {
         ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
         ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
         ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
-        ["rbxassetid://7758469482"] = "rbxassetid://5037969255"
+        ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
+        ["rbxassetid://4590662766"] = "rbxassetid://6655708496"
     },
     [6516141723] = {
-        ["rbxassetid://9145204049"] = "rbxassetid://101837480757161"
+        ["rbxassetid://7767565697"] = "rbxassetid://11638638410"
     }
 }
 local defaultVolume = 1.6  -- Set volume (0-10)
