@@ -27,30 +27,35 @@ local function sendNotification(title, text, duration, image)
 end
 local soundIdMaps = {
     [6839171747] = {
-        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.6},
+        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.45},
         ["rbxassetid://7758469482"] = {id = "rbxassetid://5037969255", volume = 1.6},
         ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 1.6},
         ["rbxassetid://16604121645"] = {id = "rbxassetid://5037969255", volume = 1.6},
-        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.6},
+        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.4},
         ["rbxassetid://6973423505"] = {id = "rbxassetid://6973423694", volume = 1.6},
         ["rbxassetid://9113549320"] = {id = "rbxassetid://8248258948", volume = 1.6},
         ["rbxassetid://10460221938"] = {id = "rbxassetid://10907273416", volume = 1.6},
         ["rbxassetid://10472770795"] = {id = "rbxassetid://11638638410", volume = 1.6},
-        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.6},
+        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.4},
         ["rbxassetid://17717855685"] = {id = "rbxassetid://103523196237716", volume = 1.6},
-        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.6}
+        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.45},
+        ["rbxassetid://11447163904"] = {id = "rbxassetid:// 5188314808", volume = 0},
+        ["rbxassetid://9114149321"] = {id = "rbxassetid://9114149321", volume = 1.6}
     },
     [10549820578] = {
         ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 1.6},
         ["rbxassetid://16604121645"] = {id = "rbxassetid://5037969255", volume = 1.6},
-        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.6},
+        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.45},
         ["rbxassetid://7758469482"] = {id = "rbxassetid://5037969255", volume = 1.6},
         ["rbxassetid://6973423505"] = {id = "rbxassetid://6973423694", volume = 1.6},
         ["rbxassetid://10460221938"] = {id = "rbxassetid://10907273416", volume = 1.6},
         ["rbxassetid://10472770795"] = {id = "rbxassetid://11638638410", volume = 1.6},
-        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.6},
+        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.4},
         ["rbxassetid://17717855685"] = {id = "rbxassetid://103523196237716", volume = 1.6},
-        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.6}
+        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.45},
+        ["rbxassetid://11447163904"] = {id = "rbxassetid:// 5188314808", volume = 0},
+        ["rbxassetid://9114149321"] = {id = "rbxassetid://9114149321", volume = 1.6},
+        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.4}
     },
     [6516141723] = {
         -- lobby sounds didnt work
