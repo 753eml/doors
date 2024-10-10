@@ -38,4 +38,6 @@
 
 ### 10/10/2024 22:37:00 - (Minor change) (Script update) Changed default sound to 1.6 again (still customizable).
 
+### 10/10/2024 22:48:20 - (Minor change) (Script update) Changed a few default sound volumes.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
