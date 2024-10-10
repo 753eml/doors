@@ -36,4 +36,6 @@
 
 ### 10/10/2024 22:31:40 - (Minor change) (Script update) Added extra Floor 2 support and gave user an editable volume for each soundid.
 
+### 10/10/2024 22:37:00 - (Minor change) (Script update) Changed default sound to 1.6 again (still customizable).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
