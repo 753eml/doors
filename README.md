@@ -42,4 +42,6 @@
 
 ### 10/10/2024 22:52:40 - (Minor change) (Script update) Fixed script and made Ambush easier to be heard when starting to attack.
 
+### 10/10/2024 23:21:25 - (Minor change) (Script update) Lowered Figure (Door 50) theme a bit lower by default.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
