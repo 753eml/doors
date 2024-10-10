@@ -31,14 +31,21 @@ local soundIdMaps = {
         ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
         ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
         ["rbxassetid://10470707502"] = "rbxassetid://101837480757161",
-        ["rbxassetid://6973423505"] = "rbxassetid://12110342523"
+        ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
+        ["rbxassetid://9113549320"] = "rbxassetid://8248258948",
+        ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
+        ["rbxassetid://10472770795"] = "rbxassetid://16932477901",
+        ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
     },
     [10549820578] = {
         ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
         ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
         ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
         ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
-        ["rbxassetid://6973423505"] = "rbxassetid://12110342523"
+        ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
+        ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
+        ["rbxassetid://10472770795"] = "rbxassetid://16932477901",
+        ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
     },
     [6516141723] = {
         ["rbxassetid://7767565697"] = "rbxassetid://11638638410"
