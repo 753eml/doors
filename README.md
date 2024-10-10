@@ -40,4 +40,6 @@
 
 ### 10/10/2024 22:48:20 - (Minor change) (Script update) Changed a few default sound volumes.
 
+### 10/10/2024 22:52:40 - (Minor change) (Script update) Fixed script and made Ambush easier to be heard when starting to attack.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
