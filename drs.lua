@@ -1,4 +1,14 @@
--- Door sounds for different places
+if getgenv().doorshacksloaded then
+    local thumbsDownImage = "rbxassetid://99911273351388"
+    game:GetService("StarterGui"):SetCore("SendNotification", {  
+        Title = "Erroɾ";
+        Text = "Doors hacks already loaded!";
+        Duration = 10; 
+        Icon = thumbsDownImage;
+    })
+    return
+end
+getgenv().doorshacksloaded = true
 local placeIds = {
     [6839171747] = "You are in a Doors match!",
     [10549820578] = "You are in a Super Hard Mode Doors match!",
