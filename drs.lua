@@ -39,8 +39,9 @@ local soundIdMaps = {
         ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.4},
         ["rbxassetid://17717855685"] = {id = "rbxassetid://103523196237716", volume = 1.6},
         ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.45},
-        ["rbxassetid://11447163904"] = {id = "rbxassetid:// 5188314808", volume = 0},
-        ["rbxassetid://9114149321"] = {id = "rbxassetid://9114149321", volume = 1.6}
+        ["rbxassetid://11447163904"] = {id = "rbxassetid://11447163904", volume = 0},
+        ["rbxassetid://9114149321"] = {id = "rbxassetid://9114149321", volume = 1.6},
+        ["rbxassetid://10116403034"] = {id = "rbxassetid://10116403034", volume = 1.45}
     },
     [10549820578] = {
         ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 1.6},
