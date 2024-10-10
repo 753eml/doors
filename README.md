@@ -30,4 +30,6 @@
 
 ### 10/10/2024 21:36:50 - (Minor change) (Script update) Made script not load more than once due to a check, and hopefully changed Jeff's shop sound.
 
+### 10/10/2024 22:01:25 - (Minor change) (Script update) Added better Door 50 Library support.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
