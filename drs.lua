@@ -31,7 +31,7 @@ local soundIdMaps = {
         ["rbxassetid://7758469482"] = {id = "rbxassetid://5037969255", volume = 1.6},
         ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 1.6},
         ["rbxassetid://16604121645"] = {id = "rbxassetid://5037969255", volume = 1.6},
-        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.4},
+        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.15},
         ["rbxassetid://6973423505"] = {id = "rbxassetid://6973423694", volume = 1.45},
         ["rbxassetid://9113549320"] = {id = "rbxassetid://8248258948", volume = 1.6},
         ["rbxassetid://10460221938"] = {id = "rbxassetid://10907273416", volume = 1.6},
@@ -56,7 +56,7 @@ local soundIdMaps = {
         ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.45},
         ["rbxassetid://11447163904"] = {id = "rbxassetid:// 5188314808", volume = 0},
         ["rbxassetid://9114149321"] = {id = "rbxassetid://9114149321", volume = 1.6},
-        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.4},
+        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 1.15},
         ["rbxassetid://10116403034"] = {id = "rbxassetid://10116403034", volume = 1.45}
     },
     [6516141723] = {
