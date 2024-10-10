@@ -28,4 +28,6 @@
 
 ### 09/10/2024 19:31:30 - (Minor change) (Script update) Removed notification sound replacement, due to it not actually replacing the Mspaint notification sound.
 
+### 10/10/2024 21:36:50 - (Minor change) (Script update) Made script not load more than once due to a check, and hopefully changed Jeff's shop sound.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
