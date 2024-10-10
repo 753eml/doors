@@ -8,14 +8,18 @@ if getgenv().doorshacksloaded then
     })
     return
 end
+
 getgenv().doorshacksloaded = true
+
 local placeIds = {
     [6839171747] = "You are in a Doors match!",
     [10549820578] = "You are in a Super Hard Mode Doors match!",
     [6516141723] = "You are in the Doors lobby!"
 }
+
 local thumbsUpImage = "rbxassetid://97609256286565"
 local thumbsDownImage = "rbxassetid://99911273351388"
+
 local function sendNotification(title, text, duration, image)
     game:GetService("StarterGui"):SetCore("SendNotification", {  
         Title = title;
@@ -24,38 +28,44 @@ local function sendNotification(title, text, duration, image)
         Icon = image;
     })
 end
+
 local soundIdMaps = {
     [6839171747] = {
-        ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
-        ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
-        ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
-        ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
-        ["rbxassetid://10470707502"] = "rbxassetid://101837480757161",
-        ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
-        ["rbxassetid://9113549320"] = "rbxassetid://8248258948",
-        ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
-        ["rbxassetid://10472770795"] = "rbxassetid://11638638410",
-        ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
+        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.0},
+        ["rbxassetid://7758469482"] = {id = "rbxassetid://5037969255", volume = 1.2},
+        ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 0.8},
+        ["rbxassetid://16604121645"] = {id = "rbxassetid://5037969255", volume = 1.1},
+        ["rbxassetid://10470707502"] = {id = "rbxassetid://101837480757161", volume = 0.9},
+        ["rbxassetid://6973423505"] = {id = "rbxassetid://6973423694", volume = 1.5},  -- New
+        ["rbxassetid://9113549320"] = {id = "rbxassetid://8248258948", volume = 1.0},
+        ["rbxassetid://10460221938"] = {id = "rbxassetid://10907273416", volume = 0.7},
+        ["rbxassetid://10472770795"] = {id = "rbxassetid://11638638410", volume = 1.4},
+        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.3},
+        ["rbxassetid://17717855685"] = {id = "rbxassetid://103523196237716", volume = 1.0},  -- New
+        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.0}    -- New
     },
     [10549820578] = {
-        ["rbxassetid://8007673711"] = "rbxassetid://9114149321",
-        ["rbxassetid://16604121645"] = "rbxassetid://5037969255",
-        ["rbxassetid://11447013731"] = "rbxassetid://5188314808",
-        ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
-        ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
-        ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
-        ["rbxassetid://10472770795"] = "rbxassetid://11638638410",
-        ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
+        ["rbxassetid://8007673711"] = {id = "rbxassetid://9114149321", volume = 0.8},
+        ["rbxassetid://16604121645"] = {id = "rbxassetid://5037969255", volume = 1.1},
+        ["rbxassetid://11447013731"] = {id = "rbxassetid://5188314808", volume = 1.0},
+        ["rbxassetid://7758469482"] = {id = "rbxassetid://5037969255", volume = 1.2},
+        ["rbxassetid://6973423505"] = {id = "rbxassetid://6973423694", volume = 1.5},  -- New
+        ["rbxassetid://10460221938"] = {id = "rbxassetid://10907273416", volume = 0.7},
+        ["rbxassetid://10472770795"] = {id = "rbxassetid://11638638410", volume = 1.4},
+        ["rbxassetid://10470715177"] = {id = "rbxassetid://5246103002", volume = 1.3},
+        ["rbxassetid://17717855685"] = {id = "rbxassetid://103523196237716", volume = 1.0},  -- New
+        ["rbxassetid://103523196237716"] = {id = "rbxassetid://5188314808", volume = 1.0}    -- New
     },
     [6516141723] = {
-        ["rbxassetid://7767565697"] = "rbxassetid://11638638410"
+        ["rbxassetid://7767565697"] = {id = "rbxassetid://11638638410", volume = 1.0}
     }
 }
-local defaultVolume = 1.6  -- Set volume (0-10)
+
 if placeIds[game.PlaceId] then
     sendNotification("Place Check", placeIds[game.PlaceId], 10, thumbsUpImage)
     -- MSPaint
     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+
     -- Door sounds part 2
     workspace.ChildAdded:Connect(function(child)      
         if child:IsA("Part") and child:FindFirstChild("ClickDetector") then      
@@ -65,15 +75,16 @@ if placeIds[game.PlaceId] then
             print("Connected new door:", child.Name)    
         end
     end)
+
     local soundIdMap = soundIdMaps[game.PlaceId]
     if soundIdMap then
         while true do
             for _, v in pairs(workspace:GetDescendants()) do
                 if v:IsA("Sound") then  
-                    local newSoundId = soundIdMap[v.SoundId]
-                    if newSoundId then
-                        v.SoundId = newSoundId
-                        v.Volume = defaultVolume
+                    local soundInfo = soundIdMap[v.SoundId]
+                    if soundInfo then
+                        v.SoundId = soundInfo.id
+                        v.Volume = soundInfo.volume
                     end
                 end
             end
