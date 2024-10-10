@@ -34,4 +34,6 @@
 
 ### 10/10/2024 22:05:30 - (Minor change) (Script update) Changed Door 50 Exit (Door 51 Entering) sound.
 
+### 10/10/2024 22:31:40 - (Minor change) (Script update) Added extra Floor 2 support and gave user an editable volume for each soundid.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
