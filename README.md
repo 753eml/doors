@@ -32,4 +32,6 @@
 
 ### 10/10/2024 22:01:25 - (Minor change) (Script update) Added better Door 50 Library support.
 
+### 10/10/2024 22:05:30 - (Minor change) (Script update) Changed Door 50 Exit (Door 51 Entering) sound.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
