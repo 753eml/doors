@@ -34,7 +34,7 @@ local soundIdMaps = {
         ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
         ["rbxassetid://9113549320"] = "rbxassetid://8248258948",
         ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
-        ["rbxassetid://10472770795"] = "rbxassetid://16932477901",
+        ["rbxassetid://10472770795"] = "rbxassetid://11638638410",
         ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
     },
     [10549820578] = {
@@ -44,7 +44,7 @@ local soundIdMaps = {
         ["rbxassetid://7758469482"] = "rbxassetid://5037969255",
         ["rbxassetid://6973423505"] = "rbxassetid://12110342523",
         ["rbxassetid://10460221938"] = "rbxassetid://10907273416",
-        ["rbxassetid://10472770795"] = "rbxassetid://16932477901",
+        ["rbxassetid://10472770795"] = "rbxassetid://11638638410",
         ["rbxassetid://10470715177"] = "rbxassetid://5246103002"
     },
     [6516141723] = {
