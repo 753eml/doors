@@ -92,7 +92,7 @@ if placeIds[game.PlaceId] then
                     end
                 end
             end
-            wait(1)
+            wait(0.2)
         end
     end
 else
