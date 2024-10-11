@@ -44,4 +44,6 @@
 
 ### 10/10/2024 23:21:25 - (Minor change) (Script update) Lowered Figure (Door 50) theme a bit lower by default.
 
+### 11/10/2024 17:56:00 - (Minor change) (Script update) Changed Door 50 (Library) theme and added support for door 100 theme (Not the intense theme tho).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
