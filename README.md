@@ -46,4 +46,6 @@
 
 ### 11/10/2024 17:56:00 - (Minor change) (Script update) Changed Door 50 (Library) theme and added support for door 100 theme (Not the intense theme tho).
 
+### 10/10/2024 17:57:50 - (Minor change) (Script update) Made default wait time for on door opening 5x less than before (1 second to 0.2 seconds).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
