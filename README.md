@@ -16,7 +16,7 @@
 
 ### 04/10/2024 21:01:45 - (Minor change) (Website update) Updated time format on changelogs to be how it is on Infinite Yield: Reborn - Modded
 
-### 04/10/2024 21:01:45 - (Minor change) (Script and Website update) Changed seek chase door opening sound to Rooms and added credits on the Website
+### 04/10/2024 22:01:45 - (Minor change) (Script and Website update) Changed seek chase door opening sound to Rooms and added credits on the Website
 
 ### 05/10/2024 14:34:55 - (Minor change) (Script update) Added notification for Doors lobby
 
