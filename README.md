@@ -6,6 +6,8 @@
 
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()](https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua)
 
+### Beta (unstable) version: [https://753eml.github.io/doorsBETA/](https://753eml.github.io/doorsBETA/)
+
 ### Changelogs:
 
 ### 04/10/2024 19:52:00 - (Script and Website update) Release
@@ -46,6 +48,8 @@
 
 ### 11/10/2024 17:56:00 - (Minor change) (Script update) Changed Door 50 (Library) theme and added support for door 100 theme (Not the intense theme tho).
 
-### 10/10/2024 17:57:50 - (Minor change) (Script update) Made default wait time for on door opening 5x less than before (1 second to 0.2 seconds).
+### 11/10/2024 17:57:50 - (Minor change) (Script update) Made default wait time for on door opening 5x less than before (1 second to 0.2 seconds).
+
+### 12/10/2024 14:05:00 - (Minor change) (Website update) Added Beta version of this script.
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
