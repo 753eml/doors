@@ -2,7 +2,7 @@ if getgenv().doorshacksloaded then
     local thumbsDownImage = "rbxassetid://99911273351388"
     game:GetService("StarterGui"):SetCore("SendNotification", {  
         Title = "Erroɾ";
-        Text = "Doors hacks already loaded!";
+        Text = "Doors script already loaded!";
         Duration = 10; 
         Icon = thumbsDownImage;
     })
@@ -12,7 +12,8 @@ getgenv().doorshacksloaded = true
 local placeIds = {
     [6839171747] = "You are in a Doors match!",
     [10549820578] = "You are in a Super Hard Mode Doors match!",
-    [6516141723] = "You are in the Doors lobby!"
+    [6516141723] = "You are in the Doors lobby!",
+    [12308344607] = "You are in the Doors Voice Chat lobby!"
 }
 local thumbsUpImage = "rbxassetid://97609256286565"
 local thumbsDownImage = "rbxassetid://99911273351388"
@@ -62,15 +63,14 @@ local soundIdMaps = {
         ["rbxassetid://12159119088"] = {id = "rbxassetid://101837480757161", volume = 1}
     },
     [6516141723] = {
-        -- only mspaint in lobby
+        ["rbxassetid://7767565697"] = {id = "rbxassetid://11638638410", volume = 1.0}
+    },
+    [12308344607] = {
+        ["rbxassetid://7767565697"] = {id = "rbxassetid://11638638410", volume = 1.0}
     }
 }
 if placeIds[game.PlaceId] then
     sendNotification("Place Check", placeIds[game.PlaceId], 10, thumbsUpImage)
-    -- MSPaint
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
-
-    -- Door sounds part 2
     workspace.ChildAdded:Connect(function(child)      
         if child:IsA("Part") and child:FindFirstChild("ClickDetector") then      
             child.ClickDetector.MouseClick:Connect(function()            
