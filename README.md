@@ -52,6 +52,6 @@
 
 ### 12/10/2024 14:05:00 - (Minor change) (Website update) Added Beta version of this script.
 
-### 06/11/2024 15:13:00 - (Major change) (Website and Script Update) Removed credits, due to mspaint now needing a key for latest versions. (sounds will still work)
+### 06/11/2024 15:13:20 - (Major change) (Website and Script Update) Removed credits for mspaint and the script itself, due to mspaint now needing a key for latest versions. (sounds will still work)
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
