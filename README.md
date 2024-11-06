@@ -1,12 +1,12 @@
-# Doors: [Mspaint](https://mspaint.upio.dev/) + Changed door sounds
-
-# Credits to: The mspaint dev team ofcourse
+# Doors: Changed door sounds (client-sided)
 
 # Tested on: Solara (Works but less features due to lower UNC rating and level 3 execution)
 
+# Recommended script to go along with this: [Mspaint](https://mspaint.upio.dev/)
+
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()](https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua)
 
-### Beta (unstable) version: [https://753eml.github.io/doorsBETA/](https://753eml.github.io/doorsBETA/)
+### Beta (unstable, possibly laggy) version: [https://753eml.github.io/doorsBETA/](https://753eml.github.io/doorsBETA/)
 
 ### Changelogs:
 
@@ -51,5 +51,7 @@
 ### 11/10/2024 17:57:50 - (Minor change) (Script update) Made default wait time for on door opening 5x less than before (1 second to 0.2 seconds).
 
 ### 12/10/2024 14:05:00 - (Minor change) (Website update) Added Beta version of this script.
+
+### 06/11/2024 15:13:00 - (Major change) (Website and Script Update) Removed credits, due to mspaint now needing a key for latest versions. (sounds will still work)
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
